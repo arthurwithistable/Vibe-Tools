@@ -1,0 +1,15 @@
+{
+  "name": "dvsa-cancellation-checker",
+  "version": "1.0.0",
+  "description": "Automatically checks for DVSA driving test cancellation slots and books them",
+  "main": "checker.js",
+  "scripts": {
+    "start": "node checker.js",
+    "install-browser": "npx playwright install chromium"
+  },
+  "dependencies": {
+    "playwright": "^1.49.0",
+    "dotenv": "^16.4.7",
+    "node-notifier": "^10.0.1"
+  }
+}
